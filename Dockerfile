@@ -1,6 +1,9 @@
-FROM python:3.8
+FROM python:3.8.13-slim-buster
+
+RUN mkdir -p /app
+COPY . app.py /app/
 WORKDIR /app
-COPY requirements.txt .
 RUN pip install -r requirements.txt
-COPY . .
-CMD ["python", "./app.py"]
+EXPOSE 8080
+CMD [ "app.py" ]
+ENTRYPOINT [ "python" ]

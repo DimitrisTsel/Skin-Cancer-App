@@ -65,6 +65,6 @@ def submit_file():
 
 if __name__ == "__main__":
     port = int(
-        os.environ.get("PORT", 5000)
+        os.environ.get("PORT", 8080)
     )  # Define port so we can map container port to localhost
     app.run(host="0.0.0.0", port=port)  # Define 0.0.0.0 for Docker
