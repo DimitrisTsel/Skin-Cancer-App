@@ -1,5 +1,6 @@
 # Skin-Cancer-App
 
+[![Test](https://github.com/DimitrisTsel/Skin-Cancer-App/actions/workflows/main.yml/badge.svg)](https://github.com/DimitrisTsel/Skin-Cancer-App/actions/workflows/main.yml)
 Build out python project scaffold:
 
 Makefile
